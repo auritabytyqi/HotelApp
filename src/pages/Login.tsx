@@ -66,9 +66,12 @@ function Login() {
                 <EuiImage src={animation} alt="logo" />
               </EuiFlexItem>
               <EuiFlexItem>
-                <EuiImage src={logo} alt="logo" size="230px" />
+                
                 <EuiSpacer size="xs" />
                 <EuiText textAlign="center" grow={false}>
+                <h1>
+                <EuiTextColor>HotelAL</EuiTextColor>
+                </h1>
                   <h3>
                     <EuiTextColor>One Platform to</EuiTextColor>
                     <EuiTextColor color="#0b5cff"> connect</EuiTextColor>

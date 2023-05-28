@@ -27,6 +27,7 @@ const RoomTable = (filter :{filter: string}) => {
     else { return "#d11919" }
   }
 
+  roomData = roomData.sort((room1, room2) => room1.roomNumber - room2.roomNumber)
 
   return (
   

@@ -29,9 +29,9 @@ function Dashboard() {
         >
           <EuiFlexItem>
             <EuiCard
-              icon={<EuiImage src={room} alt="icon" size="100%" />}
+              icon={<EuiImage src={room} alt="icon" size="5rem" />}
               title={`Rooms`}
-              description="View your created meetings."
+              description="View the list of all rooms in the hotel"
               onClick={() => navigate("/rooms")}
               paddingSize="xl"
             />
